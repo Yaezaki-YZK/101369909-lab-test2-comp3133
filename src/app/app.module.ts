@@ -5,11 +5,11 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { MissionListComponent } from './mission-list/mission-list.component';
+import { MissionlistComponent } from './mission-list/mission-list.component';
 import { DetailcardComponent } from './detailcard/detailcard.component';
 
 @NgModule({
-  declarations: [AppComponent, MissionListComponent, DetailcardComponent],
+  declarations: [AppComponent, MissionlistComponent, DetailcardComponent],
   imports: [BrowserModule, HttpClientModule, CommonModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],

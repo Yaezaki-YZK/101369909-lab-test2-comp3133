@@ -19,7 +19,7 @@ export class MissionlistComponent implements OnInit {
     });
   }
 
-  selectLaunch(launch: missio): void {
+  selectLaunch(launch: mission): void {
     this.selectedLaunch = launch;
   }
 }
